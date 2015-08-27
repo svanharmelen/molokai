@@ -138,11 +138,11 @@ if &t_Co > 255
    if s:molokai_original == 1
       hi Normal       ctermfg=15  ctermbg=234
       hi CursorLine               ctermbg=235   cterm=none
-      hi CursorLineNr ctermfg=255 ctermbg=239   cterm=none
+      hi CursorLineNr ctermfg=255 ctermbg=240   cterm=none
    else
       hi Normal       ctermfg=15  ctermbg=233
       hi CursorLine               ctermbg=234   cterm=none
-      hi CursorLineNr ctermfg=255 ctermbg=239   cterm=none
+      hi CursorLineNr ctermfg=255 ctermbg=240   cterm=none
    endif
    hi Boolean         ctermfg=135
    hi Character       ctermfg=135
@@ -235,7 +235,7 @@ if &t_Co > 255
    if exists("g:rehash256") && g:rehash256 == 1
        hi Normal       ctermfg=15  ctermbg=234
        hi CursorLine               ctermbg=236   cterm=none
-       hi CursorLineNr ctermfg=255 ctermbg=239   cterm=none
+       hi CursorLineNr ctermfg=255 ctermbg=240   cterm=none
 
        hi Boolean         ctermfg=141
        hi Character       ctermfg=222
