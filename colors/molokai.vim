@@ -138,14 +138,14 @@ if &t_Co > 255
    if s:molokai_original == 1
       hi Normal       ctermfg=15  ctermbg=234
       hi CursorLine               ctermbg=235   cterm=none
-      hi CursorLineNr ctermfg=250 ctermbg=236   cterm=none
+      hi CursorLineNr ctermfg=255 ctermbg=239   cterm=none
    else
       hi Normal       ctermfg=15  ctermbg=233
       hi CursorLine               ctermbg=234   cterm=none
-      hi CursorLineNr ctermfg=250 ctermbg=236   cterm=none
+      hi CursorLineNr ctermfg=255 ctermbg=239   cterm=none
    endif
    hi Boolean         ctermfg=135
-   hi Character       ctermfg=221
+   hi Character       ctermfg=135
    hi Number          ctermfg=135
    hi String          ctermfg=221
    hi Conditional     ctermfg=197               cterm=bold
@@ -228,14 +228,14 @@ if &t_Co > 255
    hi CursorColumn                ctermbg=236
    hi ColorColumn                 ctermbg=236
    hi LineNr          ctermfg=250 ctermbg=236
-   hi NonText         ctermfg=59
 
-   hi SpecialKey      ctermfg=59
+   hi NonText         ctermfg=237                cterm=none
+   hi SpecialKey      ctermfg=237                cterm=none
 
    if exists("g:rehash256") && g:rehash256 == 1
        hi Normal       ctermfg=15  ctermbg=234
        hi CursorLine               ctermbg=236   cterm=none
-       hi CursorLineNr ctermfg=250 ctermbg=236   cterm=none
+       hi CursorLineNr ctermfg=255 ctermbg=239   cterm=none
 
        hi Boolean         ctermfg=141
        hi Character       ctermfg=222
