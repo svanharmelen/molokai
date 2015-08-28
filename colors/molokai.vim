@@ -139,17 +139,17 @@ if &t_Co > 255
       hi Normal       ctermfg=15  ctermbg=234
       hi CursorLine               ctermbg=235   cterm=none
       hi CursorLineNr ctermfg=255 ctermbg=240   cterm=none
-   
+
       " complete menu
-      hi Pmenu           ctermfg=45  ctermbg=232
+      hi Pmenu           ctermfg=45  ctermbg=233
       hi PmenuSel        ctermfg=255 ctermbg=242
-      hi PmenuSbar                   ctermbg=232
+      hi PmenuSbar                   ctermbg=233
       hi PmenuThumb      ctermfg=45
    else
       hi Normal       ctermfg=15  ctermbg=233
       hi CursorLine               ctermbg=234   cterm=none
       hi CursorLineNr ctermfg=255 ctermbg=240   cterm=none
-   
+
       " complete menu
       hi Pmenu           ctermfg=45  ctermbg=232
       hi PmenuSel        ctermfg=255 ctermbg=242
