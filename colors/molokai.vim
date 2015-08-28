@@ -139,10 +139,22 @@ if &t_Co > 255
       hi Normal       ctermfg=15  ctermbg=234
       hi CursorLine               ctermbg=235   cterm=none
       hi CursorLineNr ctermfg=255 ctermbg=240   cterm=none
+   
+      " complete menu
+      hi Pmenu           ctermfg=45  ctermbg=232
+      hi PmenuSel        ctermfg=255 ctermbg=242
+      hi PmenuSbar                   ctermbg=232
+      hi PmenuThumb      ctermfg=45
    else
       hi Normal       ctermfg=15  ctermbg=233
       hi CursorLine               ctermbg=234   cterm=none
       hi CursorLineNr ctermfg=255 ctermbg=240   cterm=none
+   
+      " complete menu
+      hi Pmenu           ctermfg=45  ctermbg=232
+      hi PmenuSel        ctermfg=255 ctermbg=242
+      hi PmenuSbar                   ctermbg=232
+      hi PmenuThumb      ctermfg=45
    endif
    hi Boolean         ctermfg=135
    hi Character       ctermfg=135
@@ -181,12 +193,6 @@ if &t_Co > 255
    hi ModeMsg         ctermfg=229
    hi MoreMsg         ctermfg=229
    hi Operator        ctermfg=197
-
-   " complete menu
-   hi Pmenu           ctermfg=45  ctermbg=16
-   hi PmenuSel        ctermfg=255 ctermbg=242
-   hi PmenuSbar                   ctermbg=232
-   hi PmenuThumb      ctermfg=45
 
    hi PreCondit       ctermfg=118               cterm=bold
    hi PreProc         ctermfg=118
