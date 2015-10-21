@@ -111,15 +111,15 @@ hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
 if s:molokai_original == 1
-   hi Normal          guifg=#F8F8F2 guibg=#272822
+   hi Normal          guifg=#FFFFFF guibg=#282828
    hi Comment         guifg=#75715E
-   hi CursorLine                    guibg=#3E3D32
-   hi CursorLineNr    guifg=#FD971F guibg=#49483e gui=none
-   hi CursorColumn                  guibg=#3E3D32
+   hi CursorLine                    guibg=#262626 gui=none
+   hi CursorLineNr    guifg=#EEEEEE guibg=#585858 gui=none
+   hi CursorColumn                  guibg=#303030
    hi ColorColumn                   guibg=#3B3A32
    hi LineNr          guifg=#8F908A guibg=#272822
-   hi NonText         guifg=#75715E
-   hi SpecialKey      guifg=#75715E
+   hi NonText         guifg=#4A473B
+   hi SpecialKey      guifg=#4A473B
 else
    hi Normal          guifg=#F8F8F2 guibg=#1B1D1E
    hi Comment         guifg=#7E8E91
