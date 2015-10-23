@@ -58,7 +58,7 @@ hi IncSearch       guifg=#C4BE89 guibg=#000000
 hi Keyword         guifg=#F92672
 hi Label           guifg=#E6DB74               gui=none
 hi Macro           guifg=#C4BE89               gui=italic
-hi SpecialKey      guifg=#66D9EF               gui=italic
+hi SpecialKey      guifg=#AE81FF               gui=italic
 
 hi MatchParen      guifg=#000000 guibg=#FD971F
 hi ModeMsg         guifg=#E6DB74
@@ -81,7 +81,7 @@ hi Search          guifg=#000000 guibg=#FFE792
 hi SignColumn      guifg=#A6E22E guibg=#232526
 hi SpecialChar     guifg=#F92672
 hi SpecialComment  guifg=#7E8E91
-hi Special         guifg=#66D9EF guibg=bg      gui=italic
+hi Special         guifg=#AE81FF guibg=bg      gui=italic
 if has("spell")
     hi SpellBad    guisp=#FF0000 gui=undercurl
     hi SpellCap    guisp=#7070F0 gui=undercurl
@@ -102,8 +102,8 @@ hi Type            guifg=#66D9EF               gui=none
 hi Underlined      guifg=#808080               gui=underline
 
 hi VertSplit       guifg=#808080 guibg=#080808
-hi VisualNOS                     guibg=#403D3D
-hi Visual                        guibg=#403D3D
+hi VisualNOS                     guibg=#4E4E4E
+hi Visual                        guibg=#4E4E4E
 hi WarningMsg      guifg=#FFFFFF guibg=#333333
 hi WildMenu        guifg=#66D9EF guibg=#000000
 
