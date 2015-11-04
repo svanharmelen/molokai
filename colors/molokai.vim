@@ -58,7 +58,7 @@ hi IncSearch       guifg=#C4BE89 guibg=#000000
 hi Keyword         guifg=#F92672
 hi Label           guifg=#E6DB74               gui=none
 hi Macro           guifg=#C4BE89               gui=italic
-hi SpecialKey      guifg=#AE81FF               gui=italic
+hi SpecialKey      guifg=#66D9EF               gui=italic
 
 hi MatchParen      guifg=#000000 guibg=#FD971F
 hi ModeMsg         guifg=#E6DB74
@@ -205,7 +205,7 @@ if &t_Co > 255
    hi SignColumn      ctermfg=118 ctermbg=235
    hi SpecialChar     ctermfg=197               cterm=bold
    hi SpecialComment  ctermfg=245               cterm=bold
-   hi Special         ctermfg=45
+   hi Special         ctermfg=135
    if has("spell")
        hi SpellBad                ctermbg=52
        hi SpellCap                ctermbg=17
