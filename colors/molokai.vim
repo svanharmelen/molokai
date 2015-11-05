@@ -139,7 +139,7 @@ if &t_Co > 255
    if s:molokai_original == 1
       hi Normal       ctermfg=15  ctermbg=234
       hi CursorLine               ctermbg=235   cterm=none
-      hi CursorLineNr ctermfg=255 ctermbg=240   cterm=none
+      hi CursorLineNr ctermfg=254 ctermbg=239   cterm=none
 
       " complete menu
       hi Pmenu           ctermfg=45  ctermbg=233
@@ -234,7 +234,7 @@ if &t_Co > 255
    hi Comment         ctermfg=59
    hi CursorColumn                ctermbg=236
    hi ColorColumn                 ctermbg=236
-   hi LineNr          ctermfg=250 ctermbg=236
+   hi LineNr          ctermfg=243 ctermbg=235
 
    hi NonText         ctermfg=237                cterm=none
    hi SpecialKey      ctermfg=237                cterm=none
