@@ -142,20 +142,20 @@ if &t_Co > 255
       hi CursorLineNr ctermfg=254 ctermbg=239   cterm=none
 
       " complete menu
-      hi Pmenu           ctermfg=45  ctermbg=233
-      hi PmenuSel        ctermfg=255 ctermbg=242
-      hi PmenuSbar                   ctermbg=233
-      hi PmenuThumb      ctermfg=45
+      hi Pmenu        ctermfg=45  ctermbg=233
+      hi PmenuSel     ctermfg=255 ctermbg=242
+      hi PmenuSbar                ctermbg=233
+      hi PmenuThumb   ctermfg=45
    else
       hi Normal       ctermfg=15  ctermbg=233
       hi CursorLine               ctermbg=234   cterm=none
       hi CursorLineNr ctermfg=255 ctermbg=240   cterm=none
 
       " complete menu
-      hi Pmenu           ctermfg=45  ctermbg=232
-      hi PmenuSel        ctermfg=255 ctermbg=242
-      hi PmenuSbar                   ctermbg=232
-      hi PmenuThumb      ctermfg=45
+      hi Pmenu        ctermfg=45  ctermbg=232
+      hi PmenuSel     ctermfg=255 ctermbg=242
+      hi PmenuSbar                ctermbg=232
+      hi PmenuThumb   ctermfg=45
    endif
    hi Boolean         ctermfg=135
    hi Character       ctermfg=135
@@ -190,7 +190,7 @@ if &t_Co > 255
    hi Macro           ctermfg=193
    hi SpecialKey      ctermfg=45
 
-   hi MatchParen      ctermfg=233  ctermbg=208 cterm=bold
+   hi MatchParen      ctermfg=none ctermbg=none cterm=underline
    hi ModeMsg         ctermfg=229
    hi MoreMsg         ctermfg=229
    hi Operator        ctermfg=197
@@ -207,10 +207,10 @@ if &t_Co > 255
    hi SpecialComment  ctermfg=245               cterm=bold
    hi Special         ctermfg=135
    if has("spell")
-       hi SpellBad                ctermbg=52
-       hi SpellCap                ctermbg=17
-       hi SpellLocal              ctermbg=17
-       hi SpellRare  ctermfg=none ctermbg=none  cterm=reverse
+       hi SpellBad                 ctermbg=52
+       hi SpellCap                 ctermbg=17
+       hi SpellLocal               ctermbg=17
+       hi SpellRare   ctermfg=none ctermbg=none cterm=reverse
    endif
    hi Statement       ctermfg=197               cterm=bold
    hi StatusLine      ctermfg=238 ctermbg=253
@@ -244,37 +244,37 @@ if &t_Co > 255
        hi CursorLine               ctermbg=236   cterm=none
        hi CursorLineNr ctermfg=255 ctermbg=240   cterm=none
 
-       hi Boolean         ctermfg=141
-       hi Character       ctermfg=222
-       hi Number          ctermfg=141
-       hi String          ctermfg=222
-       hi Conditional     ctermfg=197               cterm=bold
-       hi Constant        ctermfg=141               cterm=bold
+       hi Boolean      ctermfg=141
+       hi Character    ctermfg=222
+       hi Number       ctermfg=141
+       hi String       ctermfg=222
+       hi Conditional  ctermfg=197               cterm=bold
+       hi Constant     ctermfg=141               cterm=bold
 
-       hi DiffDelete      ctermfg=125 ctermbg=233
+       hi DiffDelete   ctermfg=125 ctermbg=233
 
-       hi Directory       ctermfg=154               cterm=bold
-       hi Error           ctermfg=222 ctermbg=233
-       hi Exception       ctermfg=154               cterm=bold
-       hi Float           ctermfg=141
-       hi Function        ctermfg=154
-       hi Identifier      ctermfg=208
+       hi Directory    ctermfg=154               cterm=bold
+       hi Error        ctermfg=222 ctermbg=233
+       hi Exception    ctermfg=154               cterm=bold
+       hi Float        ctermfg=141
+       hi Function     ctermfg=154
+       hi Identifier   ctermfg=208
 
-       hi Keyword         ctermfg=197               cterm=bold
-       hi Operator        ctermfg=197
-       hi PreCondit       ctermfg=154               cterm=bold
-       hi PreProc         ctermfg=154
-       hi Repeat          ctermfg=197               cterm=bold
+       hi Keyword      ctermfg=197               cterm=bold
+       hi Operator     ctermfg=197
+       hi PreCondit    ctermfg=154               cterm=bold
+       hi PreProc      ctermfg=154
+       hi Repeat       ctermfg=197               cterm=bold
 
-       hi Statement       ctermfg=197               cterm=bold
-       hi Tag             ctermfg=197
-       hi Title           ctermfg=203
-       hi Visual                      ctermbg=239
+       hi Statement    ctermfg=197               cterm=bold
+       hi Tag          ctermfg=197
+       hi Title        ctermfg=203
+       hi Visual                   ctermbg=239
 
-       hi Comment         ctermfg=244
-       hi LineNr          ctermfg=239 ctermbg=235
-       hi NonText         ctermfg=239
-       hi SpecialKey      ctermfg=239
+       hi Comment      ctermfg=244
+       hi LineNr       ctermfg=239 ctermbg=235
+       hi NonText      ctermfg=239
+       hi SpecialKey   ctermfg=239
    endif
 end
 
