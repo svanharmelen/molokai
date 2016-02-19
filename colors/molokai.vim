@@ -204,7 +204,7 @@ if &t_Co > 255
    " marks column
    hi SignColumn      ctermfg=118 ctermbg=235
    hi SpecialChar     ctermfg=197               cterm=bold
-   hi SpecialComment  ctermfg=245               cterm=bold
+   hi SpecialComment  ctermfg=242               cterm=bold
    hi Special         ctermfg=135
    if has("spell")
        hi SpellBad                 ctermbg=52
@@ -231,7 +231,7 @@ if &t_Co > 255
    hi WarningMsg      ctermfg=231 ctermbg=238   cterm=bold
    hi WildMenu        ctermfg=45  ctermbg=16
 
-   hi Comment         ctermfg=59
+   hi Comment         ctermfg=242
    hi CursorColumn                ctermbg=237
    hi ColorColumn                 ctermbg=237
    hi LineNr          ctermfg=243 ctermbg=236
