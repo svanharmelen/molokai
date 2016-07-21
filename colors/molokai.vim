@@ -104,6 +104,10 @@ hi Underlined      guifg=#808080               gui=underline
 hi VertSplit       guifg=#808080 guibg=#080808
 hi VisualNOS                     guibg=#4E4E4E
 hi Visual                        guibg=#4E4E4E
+
+" link a Go specific highlight group to the Visual group
+hi def link        goSameId      Visual
+
 hi WarningMsg      guifg=#FFFFFF guibg=#333333
 hi WildMenu        guifg=#66D9EF guibg=#000000
 
